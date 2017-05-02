@@ -1,21 +1,30 @@
 # Virtual-Stack-Machine
+
 A Stack Machine emulator written in Java
 
 
  Created by: Christopher Smith
+ 
  Skeleton created by: Dr. McGuire, Sam Houston State University
+ 
  Date: 4/28/2017
+ 
 
 This program is a Stack Machine Emulator that accepts a .bin file as a Main argument. 
 
 This machine contains a .code and .data segment. As of initial release, the data segment must be hardcoded or initialized.
+
+
 All instructions are 32-bit integers.
 
 Each instruction is read as follows:
 
 Bits 32-22 are ignored.
+
 Bits 21-16 hold the opcode.
+
 Bits 15-0 hold the operand. (If there are no operands, these bits are set to 0)
+
 
 Opcodes include:
 
