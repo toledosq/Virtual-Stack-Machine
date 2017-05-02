@@ -20,38 +20,73 @@ Bits 15-0 hold the operand. (If there are no operands, these bits are set to 0)
 Opcodes include:
 
 HALT = 0
+
 PUSH = 1
+
 RVALUE = 2
+
 LVALUE = 3
+
 POP = 4
+
 STO = 5
+
 COPY = 6
+
 ADD = 7
+
 SUB = 8
+
 MPY = 9
+
 DIV = 10
+
 MOD = 11
+
 NEG = 12
+
 NOT = 13
+
 OR = 14
+
 AND = 15
+
 EQ = 16
+
 NE = 17
+
 GT = 18
+
 GE = 19
+
 LT = 20
+
 LE = 21
+
 LABEL = 22
+
 GOTO = 23
+
 GOFALSE = 24
+
 GOTRUE = 25
+
 PRINT = 26
+
 READ = 27
+
 GOSUB = 28
+
 RET = 29
+
 ORB = 30
+
 ANDB = 31
+
 XORB = 32
+
 SHL = 33
+
 SHR = 34
+
 SAR = 35
